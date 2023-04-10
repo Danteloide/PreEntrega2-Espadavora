@@ -1,0 +1,304 @@
+
+/* NAV */
+
+.navbar{
+    background-color: #603F8B;
+}
+
+.nav-item{
+    margin: 0 1vw;
+    font-size: 1em;
+}
+
+.logo{
+    transition: all 0.3s;
+    scale: 1.5;
+    margin-left: 30px;
+}
+
+
+.logo:hover{
+    scale: 1.7;
+}
+
+
+#drop-color {
+    background-color: #603F8B;
+    border-width: 1px;
+    border-color: black;
+  }
+  
+
+  #item-drop{
+    color:#f1b950;
+  }
+
+
+  #item-drop:focus{
+    color: #f1b950;
+    background-color: #8859c5;
+  }
+
+  #item-drop:hover{
+    color: #f1b950;
+    background-color:#8859c5;
+  }
+
+  #a-nav{
+    color: #f1b950;
+  }
+
+
+
+
+
+
+/* Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* INDEX */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* SECCION 1 */
+
+
+
+
+
+#sec1{
+    background-color: #603f8b81;
+    margin: 0;
+}
+
+.p-sec1{
+    font-size: 1.2em;
+}
+
+#button1{
+    margin-right: 4vw;
+    background-color: #603F8B;
+    border: none;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+
+#button1:hover{
+    scale: 1.1;
+}
+
+
+#button2{
+    padding: 0 30px;
+    color: #603F8B;
+    border-color: #603F8B;
+    border-width: 2px;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+
+#button2:hover{
+    scale: 1.1;
+}
+
+
+.video{
+    height: 22vw;
+    width: 38vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /* SECCION 2 */
+
+.sec2{
+    background-color: #603f8b40;
+}
+
+
+.titulo1-pill{
+    padding: 0 60px;
+    background-color: #603F8B;
+    font-size: 3vw;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+
+.card-body{
+    background: linear-gradient(#4b0363af, rgb(191, 126, 218));
+}
+
+#boton-formaciones{
+    color: white;
+    transition: all 0.3s;
+  }
+
+
+#boton-formaciones:hover{
+    color: black;
+}
+
+#clases-card{
+border-radius: 0.5vw;
+box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+}
+
+#formaciones-card{
+    box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+    border: none;
+}
+
+
+#escuela-card{
+    border-radius: 0.5vw;
+    box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+    border: none;
+    transition: all 0.3s;
+
+}
+
+
+#escuela-card:hover{
+    scale: 1.03;
+}
+
+
+@media (min-width: 766px) and (max-width: 1000px) {
+    #p-card-escuela {
+      font-size: 1.2vw;
+    }
+  }
+
+
+.about-mas:hover{
+    cursor: pointer;
+    color: #603F8B;
+}
+
+
+
+
+
+
+
+
+
+/* TERCER SECCION */
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000000;
+}
+
+.carrouseles{
+    width: 98.8vw;
+    height: 5vw;
+    background-color: #603F8B;
+    margin-bottom: 2.5vw;
+    margin-top: 2.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOBRE NOSOTROS */
+
+
+
+.about-1{
+    background-color: #603f8b40;
+}
+
+
+
+.about-input{
+    display: none;
+}
+
+.about-div-accordion{
+    display: grid;
+    grid-template-rows: var(--rows, 0fr);
+    transition: 1s grid-template-rows;
+}
+
+.about-div-accordion p{
+    overflow: hidden;
+}
+
+.accordion:has(:checked){
+    --rows: 1fr;    
+}
+
+
+details{transition: all 1s;
+}
+summary{transition: all 1s;
+}
+
+details summary p{
+    transition: all 1s;
+}
+
+
+
+
