@@ -1,0 +1,617 @@
+$purple: #603F8B;
+
+/* NAV */
+
+.navbar {
+    background-color: $purple;
+
+    .nav-item {
+        margin: 0 1vw;
+        font-size: 1em;
+
+        #drop-color {
+            background-color: $purple;
+            border-width: 1px;
+            border-color: black;
+        }
+
+        #item-drop {
+            color: #f1b950;
+
+            &:focus {
+                color: #f1b950;
+                background-color: #8859c5;
+            }
+
+            &:hover {
+                color: #f1b950;
+                background-color: #8859c5;
+            }
+        }
+
+
+
+    }
+
+    .logo {
+        transition: all 0.3s;
+        scale: 1.5;
+        margin-left: 30px;
+
+        &:hover {
+            scale: 1.7;
+        }
+    }
+
+
+
+    #a-nav {
+        color: #f1b950;
+    }
+
+
+}
+
+/* Footer */
+.a-footer {
+    text-decoration: none;
+}
+
+
+
+/* INDEX */
+
+/* SECCION 1 */
+
+#sec1 {
+    background-color: #603f8b81;
+    margin: 0;
+
+    .p-sec1 {
+        font-size: 1.2em;
+    }
+
+    #button1 {
+        margin-right: 4vw;
+        background-color: $purple;
+        border: none;
+        transition: all 0.3s;
+        margin-bottom: 20px;
+
+        &:hover {
+            scale: 1.1;
+        }
+    }
+
+    #button2 {
+        padding: 0 30px;
+        color: $purple;
+        border-color: $purple;
+        border-width: 2px;
+        transition: all 0.3s;
+        margin-bottom: 20px;
+
+        &:hover {
+            scale: 1.1;
+        }
+    }
+
+
+}
+
+/* SECCION 2 */
+
+.sec2 {
+    background-color: #603f8b40;
+
+    .titulo1-pill {
+        padding: 0 60px;
+        background-color: $purple;
+        font-size: 3vw;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+
+    #formaciones-card {
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+        border: none;
+
+        .card-body {
+            background: linear-gradient(#4b0363af, rgb(191, 126, 218));
+
+
+
+
+
+        }
+
+    }
+
+    #boton-formaciones {
+        color: white;
+        transition: all 0.3s;
+
+        &:hover {
+            color: black;
+        }
+
+    }
+
+
+    #clases-card {
+        border-radius: 0.5vw;
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+    }
+
+
+
+
+    #escuela-card {
+        border-radius: 0.5vw;
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+        border: none;
+        transition: all 0.3s;
+
+        &:hover {
+            scale: 1.03;
+        }
+
+        @media (min-width: 766px) and (max-width: 1000px) {
+            #p-card-escuela {
+                font-size: 1.2vw;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+/* TERCER SECCION */
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000000;
+}
+
+.carrouseles {
+    width: 98.8vw;
+    height: 5vw;
+    background-color: $purple;
+    margin-bottom: 2.5vw;
+    margin-top: 2.5vw;
+}
+
+/* SOBRE NOSOTROS BODY */
+.fab {
+    scale: 1.8;
+    margin: 10px 12px;
+}
+
+/* PRIMER SECCION */
+#about-sec1 {
+    background-color: #603f8b81;
+
+    .about-pill {
+        padding: 0 10vw;
+        background-color: #daa74a;
+        font-size: 3vw;
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }
+
+    .logo-about {
+        filter: brightness(0.1) opacity(0.6);
+    }
+
+    .accordion:has(:checked) {
+        --rows: 1fr;
+    }
+
+    .about-mas {
+        cursor: pointer;
+        background-color: $purple;
+        transition: all 0.3s;
+
+        &:hover {
+            background-color: #3d2857;
+            scale: 1.1;
+        }
+
+        .about-input {
+            display: none;
+        }
+
+    }
+
+    .about-div-accordion {
+        display: grid;
+        grid-template-rows: var(--rows, 0fr);
+        transition: 1s grid-template-rows;
+
+        .about-div-accordion p {
+            overflow: hidden;
+        }
+
+        .p_about_sentir {
+            color: #f7ca45;
+            text-shadow: 1px 1px 2px #000000;
+        }
+
+        .p_about_sentir_accordion {
+            text-shadow: 2px 2px 4px #000000;
+
+        }
+    }
+
+}
+
+/* SEGUNDA SECCION */
+
+.about-sec2 {
+    background-color: #603f8b40;
+
+    .about-pill {
+        padding: 0 8vw;
+        background-color: #daa74a;
+        font-size: 3vw;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+}
+
+/* TERCER SECCION */
+
+.about-sec3 {
+
+    .titulo-pill-about {
+        padding: 0 60px;
+        background-color: $purple;
+        font-size: 3vw;
+        margin-bottom: 40px;
+        margin-top: 60px;
+
+    }
+
+    #escuela-card-about {
+        border-radius: 1vw;
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+        border: none;
+        transition: all 0.3s;
+
+        &:hover {
+            scale: 1.03;
+        }
+
+        @media (min-width: 766px) and (max-width: 1000px) {
+            #p-card-escuela {
+                font-size: 1.2vw;
+            }
+        }
+    }
+}
+
+/* CARROUSEL */
+
+/* . */
+
+// Estilos para la sección de contacto
+
+.contact-section {
+    background-color: #603f8b3a;
+
+    .contact-form {
+        background-color: #603f8b6a;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 1vw;
+        border: 1px solid #daa74a;
+    }
+
+    .form-group label {
+        color: #333;
+    }
+
+    .form-control {
+        background-color: #fff;
+        border-color: #daa74a;
+        color: #333;
+
+        &:focus {
+            box-shadow: none;
+            border-color: #daa74a;
+        }
+    }
+
+    textarea {
+        resize: vertical;
+    }
+
+    .social-icons-container {
+        background-color: #603f8b6a;
+        border: 1px solid #daa74a;
+        border-radius: 1vw;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+
+            a {
+                margin: 0 10px;
+                text-decoration: none;
+                color: #000000;
+                margin: 0 15px;
+                transition: all 0.3s;
+
+                &:hover {
+                    color: #9c7120;
+                }
+
+                i {
+                    color: #000000;
+                    transition: color 0.3s ease;
+
+
+                }
+            }
+        }
+    }
+
+    .contact-details {
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            background-color: #fff;
+            border-color: #ccc;
+            color: #333;
+
+            &:focus {
+                box-shadow: none;
+                border-color: #ccc;
+            }
+        }
+
+        button {
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #0062cc;
+            }
+        }
+    }
+
+    .additional-info {
+        background-color: #603f8b6a;
+        border-radius: 1vw;
+        border: 1px solid #daa74a;
+    }
+
+}
+
+/* Masterclasses seccion 1*/
+
+.master-sec1 {
+    background-color: #603f8b3e;
+
+    .master-title {
+        background-color: #31273d;
+        font-size: 2.6vw;
+    }
+    .tarjetas-master{
+        margin-bottom: 3vw;
+    }
+
+    #master-card {
+        border-radius: 0.5vw;
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+        border: none;
+        transition: all 0.3s;
+        background: -webkit-gradient(linear, left top, left bottom, from(#4b0363), to(rgb(191, 126, 218)));
+        &:hover {
+            scale: 1.03;
+        }
+       
+        #boton-master {
+            color: white;
+            transition: all 0.3s;
+            &:hover {
+                color: black;
+            }
+        }
+
+        .p-master-card{
+            font-size: 1vw;
+            @media (min-width: 0px) and (max-width: 575px) {
+                font-size: 3vw;
+            }
+        }
+    }
+}
+
+/* Masterclasses seccion 2 */
+
+.master-sec2{
+    background-color: #603f8b82;    
+
+    .master-title2{
+        background-color: #31273d;
+        font-size: 2.3vw ;
+        margin: 0 12vw;
+        
+    }
+    
+    h4{
+        font-size: 1.5vw;
+    }
+
+    .p-masterclasses{
+        padding: 0 12vw;
+        color: #210629;
+        font-size: 1.3vw;
+    }
+}
+
+/* Masterclasses seccion 3 */
+
+
+.master-sec3 {
+    background-color: #603f8b40;
+
+    .titulo1-pill {
+        padding: 0 60px;
+        background-color: $purple;
+        font-size: 2.6vw;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+
+    #formaciones-card {
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+        border: none;
+
+        .card-body {
+            background: linear-gradient(#4b0363af, rgb(191, 126, 218));
+
+
+
+
+
+        }
+
+    }
+
+    #boton-formaciones {
+        color: white;
+        transition: all 0.3s;
+
+        &:hover {
+            color: black;
+        }
+
+    }
+
+
+    #clases-card {
+        border-radius: 0.5vw;
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+    }
+
+
+
+
+    #escuela-card {
+        border-radius: 0.5vw;
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+        border: none;
+        transition: all 0.3s;
+
+        &:hover {
+            scale: 1.03;
+        }
+
+        @media (min-width: 766px) and (max-width: 1000px) {
+            #p-card-escuela {
+                font-size: 1.2vw;
+            }
+        }
+    }
+}
+
+
+    .titulo1-pill {
+        padding: 0 60px;
+        background-color: $purple;
+        font-size: 3vw;
+        margin-bottom: 40px;
+        margin-top: 60px;
+    }
+
+    #formaciones-card {
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+        border: none;
+
+        .card-body {
+            background: linear-gradient(#4b0363af, rgb(191, 126, 218));
+
+
+
+
+
+        }
+
+    }
+
+    #boton-formaciones {
+        color: white;
+        transition: all 0.3s;
+
+        &:hover {
+            color: black;
+        }
+
+    }
+
+
+    #clases-card {
+        border-radius: 0.5vw;
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+    }
+
+
+
+
+    #escuela-card {
+        border-radius: 0.5vw;
+        box-shadow: 1vw 1vw 0.5vw 0px rgb(0 0 0 / 75%);
+        border: none;
+        transition: all 0.3s;
+
+        &:hover {
+            scale: 1.03;
+        }
+
+        @media (min-width: 766px) and (max-width: 1000px) {
+            #p-card-escuela {
+                font-size: 1.2vw;
+            }
+        }
+    }
+
+
+   

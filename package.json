@@ -1,0 +1,16 @@
+{
+  "name": "Sentir-el-Ser",
+  "version": "1.0.0",
+  "description": "Escuela de Astrogenealogia que ofrece formaciones, coaching y mucho mas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dante Espadavora",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.14",
+    "bootstrap": "^5.1.3"
+  }
+}
